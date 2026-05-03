@@ -67,7 +67,7 @@ public class hrmAdminPage {
         WebElement leaveMenuEl = chromeDriver.findElement(leaveMenu);
         WebElement usernameInputEl = chromeDriver.findElement(usernameInput);
         WebElement userRoleDropdownEl = chromeDriver.findElement(userRoleDropdown);
-        WebElement addminOptionEl = chromeDriver.findElement(adminOption);
+        WebElement adminOptionEl = chromeDriver.findElement(adminOption);
         WebElement essOptionEl = chromeDriver.findElement(essOption);
         WebElement employeeNameInputEl = chromeDriver.findElement(employeeNameInput);
         WebElement resetButtonEl = chromeDriver.findElement(resetButton);

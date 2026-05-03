@@ -52,8 +52,11 @@ public class airbnbHomePage {
         WebElement btnMoreGuestEl = chromeDriver.findElement(btnMoreGuest);
         btnMoreGuestEl.click();
         WebElement btnIncreaseGuestEl = chromeDriver.findElement(btnIncreaseGuest);
+        btnIncreaseGuestEl.click();
         WebElement btnDecreaseGuestEl = chromeDriver.findElement(btnDecreaseGuest);
+        btnDecreaseGuestEl.click();
         WebElement btnHCMCardEl = chromeDriver.findElement(btnHCMCard);
+        btnHCMCardEl.click();
         WebElement lblCanThoCardEl = chromeDriver.findElement(lblCanThoCard);
         WebElement btnTypeOfPlaceEl = chromeDriver.findElement(btnTypeOfPlace);
         WebElement btnPriceEl = chromeDriver.findElement(btnPrice);
